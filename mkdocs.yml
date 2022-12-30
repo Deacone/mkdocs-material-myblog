@@ -18,5 +18,36 @@ theme:
   features:
     - navigation.tabs
 nav:
-  - Home: index.md
-  - FastApi: fastapi
+  - 首页: index.md
+  - FastApi:
+      - 首页: fastapi/index.md
+      - No.66-FastApi中上传文件: fastapi/No.66-FastApi中上传文件.md
+      - No.66-No.67-FastApi中Forms和Files一起使用: fastapi/No.67-FastApi中Forms和Files一起使用.md
+copyright: Copyright &copy; 2016 - 2023 hope
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: false
+  - toc:
+      permalink: true
+  - footnotes
+  - meta
+  - def_list
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_png
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
+
+
