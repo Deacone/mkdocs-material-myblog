@@ -17,3 +17,6 @@ theme:
         name: Switch to light mode
   features:
     - navigation.tabs
+nav:
+  - Home: index.md
+  - fastapi: fastapi/index.md
