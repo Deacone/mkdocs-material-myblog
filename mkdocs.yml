@@ -19,4 +19,4 @@ theme:
     - navigation.tabs
 nav:
   - Home: index.md
-  - fastapi: fastapi/index.md
+  - FastApi: fastapi
