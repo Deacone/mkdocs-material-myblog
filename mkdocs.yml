@@ -22,7 +22,7 @@ nav:
   - FastApi:
       - 首页: fastapi/index.md
       - No.66-FastApi中上传文件: fastapi/No.66-FastApi中上传文件.md
-      - No.66-No.67-FastApi中Forms和Files一起使用: fastapi/No.67-FastApi中Forms和Files一起使用.md
+      - No.67-FastApi中Forms和Files一起使用: fastapi/No.67-FastApi中Forms和Files一起使用.md
 copyright: Copyright &copy; 2016 - 2023 hope
 markdown_extensions:
   - admonition
