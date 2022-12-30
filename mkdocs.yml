@@ -17,10 +17,5 @@ theme:
         name: Switch to light mode
   features:
     - navigation.tabs
-    - navigation.sections
-    - navigation.tabs.sticky
-    - navigation.expand
-    - navigation.prune
-    - navigation.indexes
 plugins:
   - social
