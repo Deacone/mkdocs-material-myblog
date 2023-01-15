@@ -26,6 +26,12 @@ nav:
       - No.65-FastApi中请求体使用Form Data: fastapi/No.65-FastApi中请求体使用Form Data.md
       - No.66-FastApi中上传文件: fastapi/No.66-FastApi中上传文件.md
       - No.67-FastApi中Forms和Files一起使用: fastapi/No.67-FastApi中Forms和Files一起使用.md
+      - No.68-FastApi中的异常处理: fastapi/No.68-FastApi中的异常处理.md
+      - No.69-FastApi中路由配置: fastapi/No.69-FastApi中路由配置.md
+  - Django:
+      - 首页: django/index.md
+  - Flask:
+      - 首页: Flask/index.md
 copyright: Copyright &copy; 2016 - 2023 hope
 markdown_extensions:
   - admonition
