@@ -21,6 +21,15 @@ nav:
   - 首页: index.md
   - FastApi:
       - 首页: fastapi/index.md
+      - No.42-fastapi-分页查询: fastapi/No.42-fastapi-分页查询.md
+      - No.43-fastapi-分页查询-FastAPIPagination: fastapi/No.43-fastapi-分页查询-FastAPIPagination.md
+      - No.44-fastapi日志配置: fastapi/No.44-fastapi日志配置.md
+      - No.45-Fastapi中对查询结果进行排序: fastapi/No.45-Fastapi中对查询结果进行排序.md
+      - No.46-fastapi分页查询-FastAPIPagination的性能问题验证: fastapi/No.46-fastapi分页查询-FastAPIPagination的性能问题验证.md
+      - No.47-fastapi返回结果中嵌套Model List: fastapi/No.47-fastapi返回结果中嵌套Model List.md
+      - No.48-FastApi多表查询-一对一: fastapi/No.48-FastApi多表查询-一对一.md
+      - No.49-FastApi多表查询-一对多: fastapi/No.49-FastApi多表查询-一对多.md
+      - No.50-FastApi多表查询-多对多: fastapi/No.50-FastApi多表查询-多对多.md
       - No.63-FastApi中的Response使用response_model序列化字段: fastapi/No.63-FastApi中的Response使用response_model序列化字段.md
       - No.64-FastApi中声明响应码: fastapi/No.64-FastApi中声明响应码.md
       - No.65-FastApi中请求体使用Form Data: fastapi/No.65-FastApi中请求体使用Form Data.md
