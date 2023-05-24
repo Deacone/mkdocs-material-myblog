@@ -50,6 +50,8 @@ nav:
       - 首页: django/index.md
   - Flask:
       - 首页: Flask/index.md
+  - 个人日记:
+      - 首页: diary/index.md
 copyright: Copyright &copy; 2016 - 2023 hope
 markdown_extensions:
   - admonition
