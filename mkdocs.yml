@@ -37,6 +37,15 @@ nav:
       - No.67-FastApi中Forms和Files一起使用: fastapi/No.67-FastApi中Forms和Files一起使用.md
       - No.68-FastApi中的异常处理: fastapi/No.68-FastApi中的异常处理.md
       - No.69-FastApi中路由配置: fastapi/No.69-FastApi中路由配置.md
+      - No.70-FastApi-JSON兼容格式数据转换: fastapi/No.70-FastApi-JSON兼容格式数据转换.md
+      - No.71-FastApi-编写更新数据接口: fastapi/No.71-FastApi-编写更新数据接口.md
+      - No.72-FastApi-注入依赖1: fastapi/No.72-FastApi-注入依赖1.md
+      - No.74-FastApi-使用类依赖注入: fastapi/No.74-FastApi-使用类依赖注入.md
+      - No.75-FastApi-使用依赖嵌套: fastapi/No.75-FastApi-使用依赖嵌套.md
+      - No.76-FastApi-接口路由中使用dependencies: fastapi/No.76-FastApi-接口路由中使用dependencies.md
+      - No.77-FastApi-设置全局依赖项: fastapi/No.77-FastApi-设置全局依赖项.md
+      - No.78-FastApi-依赖项中使用yield: fastapi/No.78-FastApi-依赖项中使用yield.md
+      - No.79-FastApi中的安全防护-接口安全: fastapi/No.79-FastApi中的安全防护-接口安全.md
   - Django:
       - 首页: django/index.md
   - Flask:
