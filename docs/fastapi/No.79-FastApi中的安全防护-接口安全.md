@@ -33,9 +33,28 @@ app = FastAPI()
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
 
-@app.get("/items/")
+@app.get("/items/79")
 async def read_items(token: str = Depends(oauth2_scheme)):
     return {"token": token}
+```
+
+测试：  
+```
+GET  http://127.0.0.1:9999/items/79
+Accept: application/json
+Authorization: Bearer 123456
+```
+结果：
+```
+HTTP/1.1 200 OK
+date: Thu, 12 Oct 2023 06:34:55 GMT
+server: uvicorn
+content-length: 18
+content-type: application/json
+
+{
+  "token": "123456"
+}
 ```
 
 ## 获取当前用户的例子
@@ -75,6 +94,10 @@ async def read_users_me(current_user: Annotated[User, Depends(get_current_user)]
     return current_user
 ```
 
-## 完成认证的整个过程
+***
 
-## 如何通过JWT进行认证
+每日踩一坑，生活更轻松。
+
+本期分享就到这里啦，祝君在测开之路上越走越顺，越走越远。
+
+gzh：`测开工程师的烦恼`
