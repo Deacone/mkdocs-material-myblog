@@ -18,45 +18,61 @@ theme:
   features:
     - navigation.tabs
 nav:
-  - 首页: 
+  - 首页:
       - 首页: index.md
       - 历史记录: history.md
   - FastApi:
-      - 首页: fastapi/index.md
-      - No.42-fastapi-分页查询: fastapi/No.42-fastapi-分页查询.md
-      - No.43-fastapi-分页查询-FastAPIPagination: fastapi/No.43-fastapi-分页查询-FastAPIPagination.md
-      - No.44-fastapi日志配置: fastapi/No.44-fastapi日志配置.md
-      - No.45-Fastapi中对查询结果进行排序: fastapi/No.45-Fastapi中对查询结果进行排序.md
-      - No.46-fastapi分页查询-FastAPIPagination的性能问题验证: fastapi/No.46-fastapi分页查询-FastAPIPagination的性能问题验证.md
-      - No.47-fastapi返回结果中嵌套Model List: fastapi/No.47-fastapi返回结果中嵌套Model List.md
-      - No.48-FastApi多表查询-一对一: fastapi/No.48-FastApi多表查询-一对一.md
-      - No.49-FastApi多表查询-一对多: fastapi/No.49-FastApi多表查询-一对多.md
-      - No.50-FastApi多表查询-多对多: fastapi/No.50-FastApi多表查询-多对多.md
-      - No.63-FastApi中的Response使用response_model序列化字段: fastapi/No.63-FastApi中的Response使用response_model序列化字段.md
-      - No.64-FastApi中声明响应码: fastapi/No.64-FastApi中声明响应码.md
-      - No.65-FastApi中请求体使用Form Data: fastapi/No.65-FastApi中请求体使用Form Data.md
-      - No.66-FastApi中上传文件: fastapi/No.66-FastApi中上传文件.md
-      - No.67-FastApi中Forms和Files一起使用: fastapi/No.67-FastApi中Forms和Files一起使用.md
-      - No.68-FastApi中的异常处理: fastapi/No.68-FastApi中的异常处理.md
-      - No.69-FastApi中路由配置: fastapi/No.69-FastApi中路由配置.md
-      - No.70-FastApi-JSON兼容格式数据转换: fastapi/No.70-FastApi-JSON兼容格式数据转换.md
-      - No.71-FastApi-编写更新数据接口: fastapi/No.71-FastApi-编写更新数据接口.md
-      - No.72-FastApi-注入依赖1: fastapi/No.72-FastApi-注入依赖1.md
-      - No.74-FastApi-使用类依赖注入: fastapi/No.74-FastApi-使用类依赖注入.md
-      - No.75-FastApi-使用依赖嵌套: fastapi/No.75-FastApi-使用依赖嵌套.md
-      - No.76-FastApi-接口路由中使用dependencies: fastapi/No.76-FastApi-接口路由中使用dependencies.md
-      - No.77-FastApi-设置全局依赖项: fastapi/No.77-FastApi-设置全局依赖项.md
-      - No.78-FastApi-依赖项中使用yield: fastapi/No.78-FastApi-依赖项中使用yield.md
-      - No.79-FastApi中的安全防护-接口安全: fastapi/No.79-FastApi中的安全防护-接口安全.md
-      - No.80-FastApi接收用户名和密码生成token: fastapi/No.80-FastApi接收用户名和密码生成token.md
-      - No.81-FastAPI使用JWT格式token: fastapi/No.81-FastAPI使用JWT格式token.md
-      - No.82-FastAPI中间件的使用: fastapi/No.82-FastAPI中间件的使用.md
-  - Django:
-      - 首页: django/index.md
-  - Flask:
-      - 首页: Flask/index.md
-  - 个人日记:
-      - 首页: diary/index.md
+      - Home: fastapi/index.md
+      - fastapi/No.42-fastapi-分页查询.md
+      - fastapi/No.43-fastapi-分页查询-FastAPIPagination.md
+      - fastapi/No.44-fastapi日志配置.md
+      - fastapi/No.45-Fastapi中对查询结果进行排序.md
+      - fastapi/No.46-fastapi分页查询-FastAPIPagination的性能问题验证.md
+      - fastapi/No.47-fastapi返回结果中嵌套Model
+      - fastapi/No.48-FastApi多表查询-一对一.md
+      - fastapi/No.49-FastApi多表查询-一对多.md
+      - fastapi/No.50-FastApi多表查询-多对多.md
+      - fastapi/No.63-FastApi中的Response使用response_model序列化字段.md
+      - fastapi/No.64-FastApi中声明响应码.md
+      - fastapi/No.65-FastApi中请求体使用Form
+      - fastapi/No.66-FastApi中上传文件.md
+      - fastapi/No.67-FastApi中Forms和Files一起使用.md
+      - fastapi/No.68-FastApi中的异常处理.md
+      - fastapi/No.69-FastApi中路由配置.md
+      - fastapi/No.70-FastApi-JSON兼容格式数据转换.md
+      - fastapi/No.71-FastApi-编写更新数据接口.md
+      - fastapi/No.72-FastApi-注入依赖1.md
+      - fastapi/No.74-FastApi-使用类依赖注入.md
+      - fastapi/No.75-FastApi-使用依赖嵌套.md
+      - fastapi/No.76-FastApi-接口路由中使用dependencies.md
+      - fastapi/No.77-FastApi-设置全局依赖项.md
+      - fastapi/No.78-FastApi-依赖项中使用yield.md
+      - fastapi/No.79-FastApi中的安全防护-接口安全.md
+      - fastapi/No.80-FastApi接收用户名和密码生成token.md
+      - fastapi/No.81-FastAPI使用JWT格式token.md
+      - fastapi/No.82-FastAPI中间件的使用.md
+      - fastapi/No.83-刘润年度演讲的一点心得.md
+      - fastapi/No.84-FastAPI跨域资源共享(CORS).md
+      - fastapi/No.85-FastAPI连接数据库.md
+      - fastapi/No.86-FastAPI自动化生成迁移脚本.md
+      - fastapi/No.87-FastAPI数据的创建和查询.md
+      - fastapi/No.88-FastAPI大型项目文件如何规划.md
+      - fastapi/No.89-FastAPI异步接口怎么写.md
+      - fastapi/No.90-FastAPI怎么做测试.md
+      - fastapi/No.91-FastAPI多种类型Response的编写.md
+      - fastapi/No.92-FastAPI返回Cookie和Header.md
+      - fastapi/No.93-FastAPI给依赖添加参数.md
+      - fastapi/No.94-FastAPI直接使用Request类.md
+      - fastapi/No.95-FastAPI常用中间件和第三方中间件使用.md
+      - fastapi/No.96-FastAPI子项目的使用.md
+      - fastapi/No.97-FastAPI-使用HTML模版返回html页面.md
+      - fastapi/No.97-FastAPI-使用代理.md
+      - fastapi/No.98-FastAPI-使用websockets.md
+      - fastapi/No.99-FastAPI-使用websockets-2.md
+  - Django: django/index.md
+  - Flask: Flask/index.md
+  - 个人日记: diary/index.md
+  - 关于: about/index.md
 copyright: Copyright &copy; 2016 - 2023 hope
 markdown_extensions:
   - admonition
@@ -83,5 +99,3 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist
   - pymdownx.tilde
-
-
